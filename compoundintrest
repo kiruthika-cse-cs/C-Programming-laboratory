@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int p,r,t;
+    float CI;
+    printf("principle amount");
+    scanf("%d",&p);
+    printf("rate:");
+    scanf("%d",&r);
+    printf("time:");
+    scanf("%d",&t);
+    CI=p*(pow((1+r/100),t));
+    printf("%.2f",CI);
+}
+
+
